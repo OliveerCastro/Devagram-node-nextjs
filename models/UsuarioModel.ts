@@ -11,4 +11,4 @@ const UsuarioSchema = new Schema({
 })
 
 export const UsuarioModel = (mongoose.models.usuarios 
-    || mongoose.model('usuarios', UsuarioSchema))
+    || mongoose.model('usuarios', UsuarioSchema)) 
