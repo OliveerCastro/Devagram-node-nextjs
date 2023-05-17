@@ -82,4 +82,4 @@ export const config = {
     }
 }
 
-export default validarTokenJWT(politicaCORS(conectarMongoDB(handler))) 
+export default validarTokenJWT(politicaCORS(conectarMongoDB(handler)))

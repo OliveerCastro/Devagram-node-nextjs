@@ -10,6 +10,7 @@ export const politicaCORS = (
     try {
 
         await NextCors(req, res,{
+            // "*" valor público
             origin : '*',
             methods : ['GET', 'POST', 'PUT'],
             /**

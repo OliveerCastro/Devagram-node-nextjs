@@ -54,4 +54,3 @@ const pesquisaEndpoint = async (
 }
 
 export default politicaCORS(validarTokenJWT(conectarMongoDB(pesquisaEndpoint)))
-

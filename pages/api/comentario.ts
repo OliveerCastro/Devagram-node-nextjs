@@ -31,6 +31,7 @@ const comentarioEndpoint = async(
                 })
             }
 
+                // !!!req.body?.comentario
             if (!req.body || !req.body.comentario 
                 || req.body.comentario.length < 2) {
             
